@@ -1,7 +1,7 @@
 # 📄 Evidence Units
 
 > **Evidence Units: Ontology-Grounded Document Organization for Parser-Independent Retrieval**
-> *Yeonjee Han — GenApp Tech, KT (Korea Telecom)*
+> *
 
 [![arXiv](https://img.shields.io/badge/arXiv-2025-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/XXXX.XXXXX)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
