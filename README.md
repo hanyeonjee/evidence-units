@@ -40,7 +40,7 @@ This repo releases the evaluation code and QA pairs used in the paper.
 | File | Description |
 |---|---|
 | `eval_retrieval_combined.py` | Retrieval evaluation script (LCS, Recall@K, MinK) |
-| `qas.json` | 4,107 QA pairs generated from OmniDocBench v1.0 |
+| `qas.json` | 1,551 QA pairs generated from OmniDocBench v1.0 |
 
 > Full EU construction pipeline is not included in this release.
 
@@ -74,7 +74,7 @@ python eval_retrieval.py \
 
 ---
 
-## 📊 Results on OmniDocBench (1,355 pages · 4,107 QA pairs)
+## 📊 Results on OmniDocBench (1,340 pages · 1,551 QA pairs)
 
 | Method | Avg LCS | Recall@1 | MinK ↓ |
 |---|---|---|---|
