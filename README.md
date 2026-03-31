@@ -18,7 +18,7 @@
 
 ## 🔍 What is an Evidence Unit?
 
-An **Evidence Unit (EU)** is a semantically complete document chunk that groups visual assets (tables, charts, figures) with their contextual text (captions, headers, labels, paragraphs) — built through ontology-grounded normalization that works regardless of which document parser you use.
+An **Evidence Unit (EU)** is a semantically complete document unit that groups visual assets (tables, charts, figures) with their contextual text (captions, headers, labels, paragraphs) — constructed through ontology-grounded normalization that works regardless of which document parser you use.
 
 ```
 ┌─────────────────────────────────────┐
@@ -51,15 +51,25 @@ This repo releases the evaluation code and QA pairs used in the paper.
 ```bash
 git clone https://github.com/hanyeonjee/evidence-units
 cd evidence-units
-pip install -r requirements.txt
+pip install sentence-transformers numpy
 ```
 
 ```bash
-# Run evaluation against your chunked output
-python eval_retrieval_combined.py \
-    --chunks your_chunks.json \
-    --qas qas.json \
-    --output results.json
+# Baseline evaluation (GT annotations, element-level)
+python eval_retrieval.py \
+    --gt   OmniDocBench.json \
+    --qas  qas.json \
+    --output results/
+```
+
+```bash
+# Cross-parser evaluation with pre-computed EU outputs
+python eval_retrieval.py \
+    --gt              OmniDocBench.json \
+    --qas             qas.json \
+    --output          results/ \
+    --docling-eu-dir  path/to/eu_docling \
+    --mineru-eu-dir   path/to/eu_mineru
 ```
 
 ---
