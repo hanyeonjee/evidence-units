@@ -2,11 +2,12 @@
 
 <img src="assets/banner.png" alt="Evidence Units Banner" width="800"/>
 
+<!--**English** | [한국어](docs/README_KO.md) --!>
+
 **English** | [한국어](docs/README_KO.md)
 
 [![GitHub stars](https://img.shields.io/github/stars/hanyeonjee/evidence-units?style=social)](https://github.com/hanyeonjee/evidence-units/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/hanyeonjee/evidence-units?style=social)](https://github.com/hanyeonjee/evidence-units/network/members)
-[![arXiv](https://img.shields.io/badge/arXiv-2025-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/XXXX.XXXXX)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE)
 [![Dataset](https://img.shields.io/badge/Dataset-OmniDocBench-blue)](https://huggingface.co/datasets/opendatalab/OmniDocBench)
 
@@ -102,6 +103,8 @@ Cross-parser consistency: ΔLCS ≈ +0.26–0.28 across GT, MinerU, and Docling.
 
 ---
 
+<!--
+
 ## 📝 Citation
 
 ```bibtex
@@ -119,3 +122,5 @@ Cross-parser consistency: ΔLCS ≈ +0.26–0.28 across GT, MinerU, and Docling.
 ## 📬 Contact
 
 Questions or issues → [yeonjee.han@kt.com](mailto:yeonjee.han@kt.com)
+
+--!>
