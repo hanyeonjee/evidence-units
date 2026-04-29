@@ -2,7 +2,7 @@
 
 <img src="assets/banner.png" alt="Evidence Units Banner" width="800"/>
 
-<!--**English** | [한국어](docs/README_KO.md) --!>
+<!--**English** | [한국어](docs/README_KO.md) -->
 
 **English** | [한국어](docs/README_KO.md)
 
@@ -123,4 +123,4 @@ Cross-parser consistency: ΔLCS ≈ +0.26–0.28 across GT, MinerU, and Docling.
 
 Questions or issues → [yeonjee.han@kt.com](mailto:yeonjee.han@kt.com)
 
---!>
+-->
