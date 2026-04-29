@@ -40,7 +40,7 @@ This repo releases the evaluation code and QA pairs used in the paper.
 | File | Description |
 |---|---|
 | `eval_retrieval_combined.py` | Retrieval evaluation script (LCS, Recall@K, MinK) |
-| `qas.json` | 1,551 QA pairs generated from OmniDocBench v1.0 |
+| `qas_en.json` | 1,551 QA pairs generated from OmniDocBench v1.0 |
 
 > Full EU construction pipeline is not included in this release.
 
@@ -58,7 +58,7 @@ pip install sentence-transformers numpy
 # Baseline evaluation (GT annotations, element-level)
 python eval_retrieval.py \
     --gt   OmniDocBench.json \
-    --qas  qas.json \
+    --qas  qas_en.json \
     --output results/
 ```
 
