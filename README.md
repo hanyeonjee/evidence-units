@@ -4,7 +4,7 @@
 
 <!--**English** | [한국어](docs/README_KO.md) -->
 
-**English** | [한국어](docs/README_KO.md)
+**English** 
 
 [![GitHub stars](https://img.shields.io/github/stars/hanyeonjee/evidence-units?style=social)](https://github.com/hanyeonjee/evidence-units/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/hanyeonjee/evidence-units?style=social)](https://github.com/hanyeonjee/evidence-units/network/members)
