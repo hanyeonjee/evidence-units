@@ -66,7 +66,7 @@ python eval_retrieval.py \
 # Cross-parser evaluation with pre-computed EU outputs
 python eval_retrieval.py \
     --gt              OmniDocBench.json \
-    --qas             qas.json \
+    --qas             qas_en.json \
     --output          results/ \
     --docling-eu-dir  path/to/eu_docling \
     --mineru-eu-dir   path/to/eu_mineru
