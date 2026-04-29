@@ -30,7 +30,7 @@ An **Evidence Unit (EU)** is a semantically complete document unit that groups v
 └─────────────────────────────────────┘
 ```
 
-**Key property**: EU spatial footprints converge across parsers (MinerU, Docling, etc.) even when individual bounding boxes differ — making downstream retrieval parser-independent.
+**Key property**: EU spatial footprints converge across parsers (DocuSee, MinerU, Docling, etc.) even when individual bounding boxes differ — making downstream retrieval parser-independent.
 
 ---
 
