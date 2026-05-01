@@ -5,9 +5,6 @@ Official evaluation script for:
   "Evidence Units: Ontology-Grounded Document Organization
    for Parser-Independent Retrieval"
 
-  Yeonjee Han, GenApp Tech, KT (Korea Telecom)
-  https://github.com/hanyeonjee/evidence-units
-
 [Evaluation modes]
   Strict : evidence_context uses narrow context window (±2–3 elements)
   Fair   : evidence_context uses wider context window (±4–5 elements)
