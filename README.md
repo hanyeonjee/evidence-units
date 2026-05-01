@@ -75,15 +75,16 @@ python eval_retrieval.py \
 
 ---
 
-## 📊 Results on OmniDocBench (1,340 pages · 1,551 QA pairs)
+## 📊 Results on OmniDocBench (471 English-primary pages · 1,551 QA pairs, Strict protocol)
 
 | Method | Avg LCS | Recall@1 | MinK ↓ |
 |---|---|---|---|
-| w/o EU (baseline) | 0.4417 | 0.157 | 2.70 |
-| **w/ EU (ours)** | **0.7172** | **0.406** | **2.00** |
-| Δ | **+0.275** | **+0.249** | **−0.70** |
+| w/o EU (baseline) | 0.501 | 0.150 | 2.58 |
+| **w/ EU (ours)** | **0.797** | **0.507** | **1.74** |
+| Δ | **+0.296** | **+0.357** | **−0.84** |
 
-Cross-parser consistency: ΔLCS ≈ +0.26–0.28 across GT, MinerU, and Docling.
+Cross-parser consistency: ΔLCS between **+0.23 and +0.30** across MinerU, DocuSee, and Docling.
+Downstream gain on DocVQA ANLS: **+0.05 to +0.10** across all three parsers.
 
 ---
 
